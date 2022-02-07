@@ -1,16 +1,16 @@
 import { Container } from '@material-ui/core';
-import Search from '@material-ui/icons/Search';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
 import SimpleBottomNavigation from './MainNav';
 import Movies from './Pages/Movies/Movies';
+import Search from './Pages/Search/Search';
 import Series from './Pages/Series/Series';
 import Trending from './Pages/Trending/Trending';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Header />
       <div className="app">
         <Container>
@@ -23,7 +23,7 @@ function App() {
         </Container>
       </div>
       <SimpleBottomNavigation />
-    </BrowserRouter>
+    </Router>
   );
 }
 

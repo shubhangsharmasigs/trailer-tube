@@ -7,6 +7,7 @@ import MovieIcon from "@material-ui/icons/Movie";
 import SearchIcon from "@material-ui/icons/Search";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import { useHistory } from "react-router-dom";
+import Tv from "@material-ui/icons/Tv";
 
 const useStyles = makeStyles({
   root: {
